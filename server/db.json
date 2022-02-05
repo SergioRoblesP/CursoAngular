@@ -1,0 +1,176 @@
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "Park Row at Beekman St",
+      "address": "38 Park Row",
+      "city": "New York",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+    },
+    {
+      "id": 2,
+      "name": "Store Alcalá",
+      "address": "Calle de Alcalá, 21",
+      "city": "Madrid",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+    },
+    {
+      "id": 3,
+      "name": "Chambers and West Broadway",
+      "address": "125 Chambers Street",
+      "city": "New York",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+    },
+    {
+      "id": 4,
+      "name": "Covent Garden - Russell St",
+      "address": "10 Russell Street",
+      "city": "London",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+    },
+    {
+      "id": 5,
+      "name": "Monmouth St",
+      "address": "11 Monmouth Street",
+      "city": "London",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Books"
+    },
+    {
+      "id": 2,
+      "name": "Electronics"
+    },
+    {
+      "id": 3,
+      "name": "Computers"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Programa en ensamblador",
+      "price": 45,
+      "description": "Un nuevo reto para los desarrolladores",
+      "categoryId": 1,
+      "stock": 0
+    },
+    {
+      "id": 2,
+      "name": "Laptop gamer Ryzen 7, 4GB, 250 HDD",
+      "price": 5,
+      "description": "Últimas unidades en stock, aproveche la oferta",
+      "categoryId": 1,
+      "stock": 7
+    },
+    {
+      "id": 3,
+      "name": "Tarjeta de video Nvidia RTX 3090",
+      "price": 17,
+      "description": "La más potente de su casa",
+      "categoryId": 1,
+      "stock": 6
+    },
+    {
+      "id": 4,
+      "name": "TV LG Smart 50' con sound bar incluido",
+      "price": 19,
+      "description": "Disfruta de las mejores películas en HD y Dolby Surround 7.1",
+      "categoryId": 2,
+      "stock": 8
+    },
+    {
+      "id": 5,
+      "name": "Play Station 5 2TB 4K",
+      "price": 399,
+      "description": "La mejor experiencia en gaming al alcance de unos clicks",
+      "categoryId": 2,
+      "stock": 10
+    },
+    {
+      "id": 6,
+      "name": "Unidad SSD NVMe 900GB 2280",
+      "price": 7,
+      "description": "Acelera de una vez ese computador",
+      "categoryId": 2,
+      "stock": 10
+    },
+    {
+      "id": 7,
+      "name": "Cámara Sony IMX2209",
+      "price": 32,
+      "description": "Perfecta para capturar la vida",
+      "categoryId": 3,
+      "stock": 10
+    },
+    {
+      "id": 8,
+      "name": "Xiaomi Poco X3 Pro 256GB, 8Ram, Snapdragon 860",
+      "price": 20,
+      "description": "El más vendido del 2021",
+      "categoryId": 3,
+      "stock": 10
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "name": "Dominicode",
+      "date": "01/12/1995",
+      "shippingAddress": "Av. de la Granvia de Hospitalet, 115",
+      "city": "Barcelona",
+      "pickup": true
+    },
+    {
+      "name": "Sergio",
+      "shippingAddress": "",
+      "city": "",
+      "date": "5/2/2022",
+      "isDelivery": true,
+      "id": 2
+    },
+    {
+      "name": "Sergio",
+      "shippingAddress": "",
+      "city": "",
+      "date": "5/2/2022",
+      "isDelivery": true,
+      "id": 3
+    },
+    {
+      "name": "Sergio",
+      "shippingAddress": "",
+      "city": "",
+      "date": "5/2/2022",
+      "isDelivery": true,
+      "id": 4
+    }
+  ],
+  "detailsOrders": [
+    {
+      "id": 1,
+      "orderId": 1,
+      "quantity": 10,
+      "productName": "Product name"
+    },
+    {
+      "details": [],
+      "orderId": 2,
+      "id": 2
+    },
+    {
+      "details": [],
+      "orderId": 3,
+      "id": 3
+    },
+    {
+      "details": [],
+      "orderId": 4,
+      "id": 4
+    }
+  ]
+}
